@@ -1,6 +1,6 @@
 .env
 data/vector_store/
-data/raw/
+data/raw/*.pdf
 data/processed/
 __pycache__/
 *.pyc

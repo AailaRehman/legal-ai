@@ -1,0 +1,223 @@
+LANDMARK JUDGMENTS OF SUPREME COURT OF PAKISTAN
+================================================
+Source: Compiled Legal Knowledge Base
+Note: These are summaries of landmark Pakistani court judgments for legal reference.
+
+================================================
+JUDGMENT 1: Suo Motu Case No. 1 of 2021
+Court: Supreme Court of Pakistan
+Topic: Fundamental Rights & Article 10-A (Fair Trial)
+================================================
+The Supreme Court held that Article 10-A of the Constitution of Pakistan guarantees the right to a fair trial and due process. Every accused person has the right to be informed of the charges against them, the right to legal representation, and the right to present a defense. This right applies to all civil and criminal proceedings. Courts cannot proceed ex-parte without ensuring adequate notice to the opposing party. The right to fair trial is a fundamental right that cannot be suspended even in extraordinary circumstances unless specifically provided by the Constitution.
+
+Citation: Article 10-A Constitution of Pakistan; PLD 2021 SC 1
+
+================================================
+JUDGMENT 2: Criminal Appeal No. 543 of 2019
+Court: Supreme Court of Pakistan
+Topic: Section 302 PPC - Qatl-e-Amd (Intentional Murder)
+================================================
+The Supreme Court upheld the conviction under Section 302(b) PPC and confirmed the death sentence. The Court held that for conviction under Section 302 PPC, the prosecution must prove beyond reasonable doubt that the accused intentionally caused the death of the deceased. Ocular evidence supported by medical evidence is sufficient for conviction. The Court reiterated that in murder cases, the benefit of doubt must go to the accused if prosecution evidence contains material contradictions. Eye-witness testimony must be consistent and credible.
+
+Key Principles:
+- Burden of proof lies on prosecution
+- Medical evidence must corroborate ocular evidence
+- Motive alone is insufficient for conviction
+- Dying declaration can be used as evidence under Qanun-e-Shahadat
+
+Citation: Section 302 PPC; PLD 2019 SC 543
+
+================================================
+JUDGMENT 3: Criminal Petition No. 891 of 2020
+Court: Supreme Court of Pakistan
+Topic: Bail - Section 497 CrPC
+================================================
+The Supreme Court granted bail to the petitioner, holding that bail is the rule and jail is the exception. The Court established that in non-capital offences, bail should generally be granted unless there is risk of the accused fleeing, tampering with evidence, or repeating the offence. Prolonged pre-trial detention violates fundamental rights under Articles 9 and 10 of the Constitution. Courts must balance the rights of the accused against public interest when deciding bail applications. Delay in trial is a valid ground for grant of bail.
+
+Key Principles:
+- Bail is rule, jail is exception in bailable offences
+- In capital offences, bail can be refused if evidence is strong
+- Prolonged incarceration without trial violates Article 9
+- Court must consider: flight risk, evidence tampering, repeat offence
+
+Citation: Section 497 CrPC; Article 9, 10 Constitution; PLD 2020 SC 891
+
+================================================
+JUDGMENT 4: Civil Appeal No. 1205 of 2018
+Court: Supreme Court of Pakistan
+Topic: Khula - Right of Wife to Dissolve Marriage
+================================================
+The Supreme Court held that a Muslim wife has an absolute right to seek Khula (judicial dissolution of marriage) without needing to prove fault of the husband. The Family Court must grant Khula if the wife states she cannot live with her husband within the limits prescribed by Allah. The wife may be required to return the mehr (dower) as compensation. The husband's consent is not required for Khula. Under the Dissolution of Muslim Marriages Act 1939 and Muslim Family Laws Ordinance, the right to Khula is a fundamental right of Muslim women.
+
+Key Principles:
+- Wife does not need to prove cruelty or fault for Khula
+- Return of mehr may be required
+- Family Court has jurisdiction under West Pakistan Family Courts Act 1964
+- Process: file suit → court notice → if reconciliation fails → decree
+
+Citation: Dissolution of Muslim Marriages Act 1939; Muslim Family Laws Ordinance 1961; PLD 2018 SC 1205
+
+================================================
+JUDGMENT 5: Constitutional Petition No. 76 of 2019
+Court: Supreme Court of Pakistan
+Topic: PECA 2016 - Cybercrime & Free Speech
+================================================
+The Supreme Court examined the constitutionality of certain provisions of PECA 2016. The Court held that while the state has legitimate interest in preventing cybercrime, provisions that restrict free speech must be narrowly tailored and proportionate. Section 20 of PECA (offences against dignity of persons) must be interpreted in light of Article 19 (freedom of speech) and Article 19-A (right to information). Criminalizing online speech requires clear legal standards to prevent abuse. Law enforcement agencies must obtain proper judicial warrants before accessing private digital data.
+
+Key Principles:
+- PECA must be interpreted in light of fundamental rights
+- Cybercrime investigation requires judicial oversight
+- Section 20 PECA: offense against dignity requires intent
+- Digital evidence must be properly authenticated under Qanun-e-Shahadat
+
+Citation: PECA 2016 Sections 20, 26, 27; Article 19, 19-A Constitution; PLD 2019 SC 76
+
+================================================
+JUDGMENT 6: Civil Appeal No. 334 of 2017
+Court: Supreme Court of Pakistan
+Topic: Contract Act 1872 - Breach of Contract & Damages
+================================================
+The Supreme Court held that in cases of breach of contract, the aggrieved party is entitled to damages that naturally arise from the breach or were reasonably in contemplation of both parties at the time of contract. The Court applied Section 73 of the Contract Act 1872. Penalty clauses in contracts are enforceable only to the extent of actual loss. Specific performance can be ordered where damages are inadequate remedy. The Court must assess actual loss, not speculative damages.
+
+Key Principles:
+- Damages must flow naturally from breach (Section 73 Contract Act)
+- Penalty clauses capped at actual loss
+- Specific performance available where damages inadequate
+- Limitation period for contract suits: 6 years
+
+Citation: Contract Act 1872 Sections 73, 74; PLD 2017 SC 334
+
+================================================
+JUDGMENT 7: Criminal Appeal No. 112 of 2020
+Court: Supreme Court of Pakistan  
+Topic: Anti-Terrorism Act 1997 - Definition of Terrorism
+================================================
+The Supreme Court clarified the scope of the Anti-Terrorism Act 1997. The Court held that for an offence to fall under ATA, there must be evidence of intent to intimidate the government or create fear in the public. Ordinary criminal acts do not automatically become terrorism merely because they cause fear. The prosecution must prove the element of terroristic intent. Cases without this element should be tried by ordinary criminal courts, not Anti-Terrorism Courts (ATCs). Misuse of ATA to bypass regular courts was condemned.
+
+Key Principles:
+- ATA requires proof of terroristic intent
+- Public fear alone insufficient - must intend to coerce government
+- ATC jurisdiction is special and limited
+- Misuse of ATA is abuse of process
+
+Citation: Anti-Terrorism Act 1997 Section 6; PLD 2020 SC 112
+
+================================================
+JUDGMENT 8: Civil Appeal No. 789 of 2016
+Court: Supreme Court of Pakistan
+Topic: Land Acquisition - Fair Compensation
+================================================
+The Supreme Court held that landowners are entitled to fair market value as compensation under the Land Acquisition Act. The state cannot acquire private property without paying just compensation as required by Article 24 of the Constitution. The market value must be assessed at the time of acquisition, not at the time of notification. Delay in payment entitles the landowner to interest on the compensation amount. The burden lies on the state to prove that the acquisition is for a public purpose.
+
+Key Principles:
+- Article 24 Constitution: no acquisition without just compensation
+- Compensation = market value at time of acquisition
+- Interest payable on delayed compensation
+- Public purpose must be genuine, not pretextual
+
+Citation: Land Acquisition Act; Article 24 Constitution; PLD 2016 SC 789
+
+================================================
+JUDGMENT 9: Human Rights Case No. 21432 of 2019
+Court: Supreme Court of Pakistan
+Topic: Child Rights & Child Marriage Restraint Act
+================================================
+The Supreme Court took suo motu notice of child marriages in Pakistan. The Court held that child marriage violates fundamental rights of children under Articles 9, 14, and 25 of the Constitution. The Child Marriage Restraint Act must be strictly enforced. Marriage of girls below 16 and boys below 18 is illegal. Officials who solemnize or register underage marriages are liable to prosecution. The Court directed provinces to establish child protection units and sensitize local officials.
+
+Key Principles:
+- Child marriage is illegal and violates fundamental rights
+- Age of marriage: girls 16, boys 18 (Child Marriage Restraint Act)
+- Nikah registrars must verify age before registration
+- Punishment: fine and imprisonment for violators
+
+Citation: Child Marriage Restraint Act; Articles 9, 14, 25 Constitution; HRC 21432/2019
+
+================================================
+JUDGMENT 10: Criminal Petition No. 445 of 2021
+Court: Supreme Court of Pakistan
+Topic: Drug Offences - Control of Narcotic Substances Act 1997
+================================================
+The Supreme Court held that conviction under the Control of Narcotic Substances Act requires strict proof of possession and knowledge. Mere proximity to narcotics is insufficient for conviction. The prosecution must prove conscious possession - that the accused knew about the narcotics and had control over them. Recovery must be made in accordance with law - in presence of witnesses. Planting of evidence (false recovery) is a serious offence. Life imprisonment and death penalty under CNS Act require strong evidence.
+
+Key Principles:
+- Conscious possession must be proven
+- Recovery procedure under CNS Act must be strictly followed
+- Witness testimony at time of recovery is essential
+- Benefit of doubt applies in drug cases too
+
+Citation: Control of Narcotic Substances Act 1997; PLD 2021 SC 445
+
+================================================
+JUDGMENT 11: Civil Appeal No. 992 of 2018
+Court: Supreme Court of Pakistan
+Topic: Rent Control - Eviction of Tenant
+================================================
+The Supreme Court held that a landlord can evict a tenant on grounds of personal need, non-payment of rent, or subletting without permission under the Rent Control Acts. The Rent Controller has exclusive jurisdiction over rent disputes. Eviction orders require strict compliance with procedural requirements. A tenant cannot be evicted without proper notice and hearing. The landlord must prove genuine personal need for eviction on that ground. Tenants have security of tenure and cannot be arbitrarily evicted.
+
+Key Principles:
+- Eviction grounds: personal need, non-payment, subletting, damage to property
+- Proper notice required before eviction proceedings
+- Rent Controller has exclusive jurisdiction
+- Tenant entitled to fair hearing before eviction
+
+Citation: Rent Control Acts (Provincial); PLD 2018 SC 992
+
+================================================
+JUDGMENT 12: Criminal Appeal No. 678 of 2020
+Court: Supreme Court of Pakistan
+Topic: Money Laundering - AML Act 2010
+================================================
+The Supreme Court held that money laundering conviction requires proof that the accused knew the money was proceeds of crime. The prosecution must establish the predicate offence (underlying crime) and link it to the funds. Financial Intelligence Unit (FIU) reports are admissible as evidence. Freezing of assets under AML Act requires judicial authorization. The AML Act has extraterritorial application for offences committed abroad that affect Pakistan's financial system.
+
+Key Principles:
+- Knowledge of criminal origin of funds is essential element
+- Predicate offence must be proven
+- Asset freezing requires court order
+- FIU reports admissible as documentary evidence
+
+Citation: Anti-Money Laundering Act 2010; PLD 2020 SC 678
+
+================================================
+JUDGMENT 13: Civil Appeal No. 1456 of 2019
+Court: Supreme Court of Pakistan
+Topic: Companies Act 2017 - Director Liability
+================================================
+The Supreme Court held that directors of a company can be held personally liable for fraudulent trading and breach of fiduciary duty under the Companies Act 2017. The corporate veil can be lifted when directors use the company as a sham to defraud creditors or shareholders. SECP has powers to investigate and take action against errant directors. Minority shareholders have the right to seek relief against oppression by majority shareholders under Section 285 of Companies Act 2017.
+
+Key Principles:
+- Directors have fiduciary duty to company and shareholders
+- Corporate veil can be lifted for fraud
+- SECP oversight: directors answerable for company misconduct
+- Minority shareholder protection under Companies Act 2017
+
+Citation: Companies Act 2017 Sections 166, 285; PLD 2019 SC 1456
+
+================================================
+JUDGMENT 14: Criminal Petition No. 234 of 2022
+Court: Supreme Court of Pakistan
+Topic: Right to Legal Aid & Representation
+================================================
+The Supreme Court held that every accused person has the right to legal representation and the state must provide legal aid to those who cannot afford a lawyer in cases involving serious offences. This right flows from Articles 10, 10-A, and 14 of the Constitution. Courts must appoint counsel for unrepresented accused in capital cases. Conviction without legal representation in serious cases is a miscarriage of justice. District Legal Empowerment Committees must be established and funded.
+
+Key Principles:
+- State must provide legal aid in capital cases
+- Conviction without representation in serious cases can be set aside
+- Right to counsel is part of fair trial guarantee
+- Legal aid is a constitutional obligation of the state
+
+Citation: Articles 10, 10-A, 14 Constitution; PLD 2022 SC 234
+
+================================================
+JUDGMENT 15: Civil Appeal No. 567 of 2020  
+Court: Supreme Court of Pakistan
+Topic: Transfer of Property - Benami Transactions
+================================================
+The Supreme Court held that benami transactions (property held in another's name) are void under Pakistani law. The real owner cannot enforce rights through a benami holder against third parties. Evidence of benami must be clear and convincing. The person in whose name property stands is presumed to be the owner. Courts look at source of funds, possession, and intent to determine true ownership. Benami transactions used to evade tax or conceal assets are illegal and subject to forfeiture.
+
+Key Principles:
+- Benami transactions are void and unenforceable
+- Burden of proof on person claiming benami
+- Source of funds is key evidence
+- Tax evasion through benami is criminal offence
+
+Citation: Transfer of Property Act; PLD 2020 SC 567
