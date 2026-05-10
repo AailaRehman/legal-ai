@@ -10,12 +10,14 @@ from typing import List, Optional
 from langchain.schema import Document
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
+from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv()
+_project_root = Path(__file__).resolve().parent.parent.parent
+load_dotenv(dotenv_path=_project_root / ".env")
 
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
-VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "data/vector_store")
+VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", str(_project_root / "data" / "vector_store"))
 
 
 def get_embeddings() -> HuggingFaceEmbeddings:

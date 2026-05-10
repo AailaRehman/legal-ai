@@ -4,6 +4,7 @@ Retrieves relevant law sections + generates cited answers via Groq LLM.
 """
 
 import os
+from pathlib import Path
 from typing import Dict, Any, List, Tuple
 
 from langchain_groq import ChatGroq
@@ -14,9 +15,11 @@ from langchain_community.vectorstores import FAISS
 from langchain.schema import Document
 from dotenv import load_dotenv
 
-load_dotenv()
+# Load .env from project root regardless of working directory
+_project_root = Path(__file__).resolve().parent.parent.parent
+load_dotenv(dotenv_path=_project_root / ".env")
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
 LLM_MODEL = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
 
 
