@@ -28,21 +28,49 @@ def extract_metadata(filename: str, text: str) -> Dict[str, Any]:
 
     law_map = {
         "constitution": "Constitution of Pakistan",
+        "pakistan penal code": "Pakistan Penal Code",
+        "penal code": "Pakistan Penal Code",
+        "qanun-e-shahadat": "Qanun-e-Shahadat (Evidence Act)",
+        "qanun": "Qanun-e-Shahadat (Evidence Act)",
+        "code of criminal procedure": "Code of Criminal Procedure (CrPC)",
+        "crpc": "Code of Criminal Procedure (CrPC)",
+        "prevention-of-electronic-crime": "Prevention of Electronic Crimes Act (PECA)",
+        "peca": "Prevention of Electronic Crimes Act (PECA)",
+        "anti-terrorism": "Anti-Terrorism Act",
+        "anti-money laundering": "Anti-Money Laundering Act",
+        "aml": "Anti-Money Laundering Act",
+        "family laws": "Family Laws Ordinance",
+        "family courts": "West Pakistan Family Courts Act",
+        "dissolution of muslim": "Dissolution of Muslim Marriages Act",
+        "child marriage": "Child Marriage Restraint Act",
+        "income tax": "Income Tax Ordinance",
+        "companies act": "Companies Act 2017",
+        "contract act": "Contract Act 1872",
+        "industrial relations": "Industrial Relations Act",
+        "narcotics": "Narcotics Control Act",
+        "land acqu": "Land Acquisition Act",
+        "transfer of property": "Transfer of Property Act",
+        "rent control": "Rent Control Act",
+        "consumer protection": "Consumer Protection Act",
+        "civil servants": "Civil Servants Act",
+        "rules of business": "Rules of Business",
+        "mental health": "Mental Health Ordinance",
+        "estacode": "Estacode (Civil Service Rules)",
+        "landmark": "Supreme Court Landmark Judgments",
+        "judgment": "Supreme Court Judgments",
         "ppc": "Pakistan Penal Code",
-        "crpc": "Code of Criminal Procedure",
-        "qanun": "Qanun-e-Shahadat",
-        "peca": "Prevention of Electronic Crimes Act",
-        "family": "Family Laws",
-        "labour": "Labour Laws",
         "tax": "Tax Laws",
-        "cybercrime": "Cybercrime Laws",
-        "consumer": "Consumer Protection Laws",
+        "labour": "Labour Laws",
     }
 
+    # Add typo variants and sort by length (longer = more specific, match first)
+    law_map["aquisition"] = "Land Acquisition Act"    # handles filename typo
+    law_map["qanun-e-shahadat"] = "Qanun-e-Shahadat (Evidence Act)"
+    law_map["(qanun"] = "Qanun-e-Shahadat (Evidence Act)"  # parenthetical match
     law_type = "Pakistani Law"
-    for key, value in law_map.items():
+    for key in sorted(law_map.keys(), key=len, reverse=True):
         if key in name:
-            law_type = value
+            law_type = law_map[key]
             break
 
     # Extract section numbers mentioned in text
