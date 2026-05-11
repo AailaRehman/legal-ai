@@ -30,11 +30,19 @@ def detect_language(text: str) -> str:
         'kya','hai','ka','ki','ke','mein','nahi','hota','karo',
         'ap','aap','hum','tum','woh','yeh','ye','jo','koi',
         'kuch','sab','bhi','sirf','lekin','aur','ya','agar',
-        'qanoon','adalat','fir','bail','wakeel','judge','case',
-        'Pakistan','Karachi','Lahore','Islamabad'
+        'qanoon','adalat','bail','wakeel','judge',
+        'kaise','karo','karna','hoga','liye','bina','laren',
+        'darj','karein','milti','chahiye','batao','samjhao',
+        'mujhe','apko','unko','humko','tumko','usne','inhone',
+        'pakistan','karachi','lahore','islamabad',
     }
-    words = set(text.lower().split())
-    if len(words & {w.lower() for w in roman_urdu_words}) >= 2:
+    # Also detect common Roman Urdu verb/grammar patterns
+    roman_patterns = ['kaise', 'karna', 'karein', 'milti', 'chahiye',
+                      'hoga', 'liye', 'darj', 'mujhe', 'batao']
+    words_lower = [w.lower() for w in text.split()]
+    roman_match = sum(1 for w in words_lower if w in roman_urdu_words)
+    pattern_match = sum(1 for p in roman_patterns if p in words_lower)
+    if roman_match >= 2 or pattern_match >= 1:
         return "roman_urdu"
 
     return "english"
