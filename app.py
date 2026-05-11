@@ -22,6 +22,12 @@ from src.ingestion.vector_store import (
     add_documents_to_store, vector_store_exists,
 )
 from src.rag.rag_chain import create_rag_chain
+from src.auth.auth_manager import init_auth, require_auth, get_current_user, get_role_info, logout
+from src.auth.auth_ui import render_auth_page
+from src.database.db_manager import save_message, get_chat_history, init_db
+
+# ── Init DB
+init_db()
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -231,14 +237,22 @@ def init_session():
 init_session()
 
 
+# ── Auth gate ──────────────────────────────────────────────────────────────────
+init_auth()
+if not require_auth():
+    render_auth_page()
+    st.stop()
+
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("""
+    user = get_current_user()
+    role_info = get_role_info(user.get("role","citizen"))
+    st.markdown(f"""
     <div class="sidebar-brand">
         <div class="sidebar-brand-icon">⚖️</div>
         <div class="sidebar-brand-text">
             <h2>Mizan</h2>
-            <p>Legal AI · Pakistan</p>
+            <p>{role_info['icon']} {user.get('username','User')} · <span style="color:{role_info['color']}">{role_info['label']}</span></p>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -304,6 +318,9 @@ with st.sidebar:
             st.error("Could not extract text from file.")
 
     st.markdown('<div class="custom-divider"></div>', unsafe_allow_html=True)
+    if st.button("🚪  Sign Out"):
+        logout()
+        st.rerun()
     if st.button("↺  Clear Conversation"):
         st.session_state.messages = []
         if st.session_state.rag_chain:
@@ -394,12 +411,22 @@ if user_input:
     if not st.session_state.kb_loaded or not st.session_state.rag_chain:
         st.error("⚠️ Knowledge base not loaded. Run build_index.py first, then restart the app.")
     else:
+        user = get_current_user()
+        uid = user.get("id") if user else None
+        sid = st.session_state.get("session_id", "default")
+        mode = st.session_state.get("mode", "Citizen")
+
         st.session_state.messages.append({"role": "user", "content": user_input})
+        if uid:
+            save_message(uid, sid, "user", user_input, mode)
+
         with st.spinner("Searching legal knowledge base..."):
             result = st.session_state.rag_chain.ask(user_input)
         st.session_state.messages.append({
             "role": "assistant", "content": result["answer"], "sources": result["sources"],
         })
+        if uid:
+            save_message(uid, sid, "assistant", result["answer"], mode)
         st.rerun()
 
 # ── Disclaimer ─────────────────────────────────────────────────────────────────

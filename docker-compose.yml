@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  mizan:
+    build: .
+    container_name: mizan-legal-ai
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data          # Persist vector store, DB, PDFs
+      - ./.env:/app/.env          # API keys
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
