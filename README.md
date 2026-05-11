@@ -1,88 +1,36 @@
-# ⚖️ Pakistani Legal AI — Phase 1 MVP
-
-RAG-powered AI legal assistant for Pakistani law, built with LangChain + Groq + FAISS + Streamlit.
-
+---
+title: Mizan — Pakistani Legal AI
+emoji: ⚖️
+colorFrom: green
+colorTo: yellow
+sdk: streamlit
+sdk_version: 1.38.0
+app_file: app.py
+pinned: true
+license: mit
+short_description: RAG-powered Pakistani Legal AI — PPC, Constitution, PECA & more
 ---
 
-## 🚀 Quick Start
+# ⚖️ Mizan — Pakistani Legal AI
 
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+A production-grade AI legal assistant for Pakistani law, built with RAG (Retrieval-Augmented Generation).
 
-### 2. Configure environment
-The `.env` file is already set up with your API keys.
+## Features
+- 🤖 **RAG Chat** — Ask questions about Pakistani law with citations
+- 📄 **Document Analyzer** — Upload FIR/contract → risk score, entity extraction
+- ✍️ **Legal Drafter** — Generate notices, affidavits, FIR drafts, contracts
+- 🌐 **Multilingual** — English, اردو, Roman Urdu
+- 🎯 **Case Strategy** — AI legal strategy + court procedure guides
+- 📚 **Legal Education** — MCQs, concept explainer, case scenarios
+- 📊 **Dashboard** — Chat history, saved documents
 
-### 3. Run the app
-```bash
-streamlit run app.py
-```
+## Demo Accounts
+| Username | Password | Role |
+|---|---|---|
+| `admin` | `admin123` | Admin |
+| `lawyer1` | `law12345` | Lawyer |
+| `student1` | `stu12345` | Student |
+| `citizen1` | `cit12345` | Citizen |
 
----
-
-## 📁 Project Structure
-
-```
-legal-ai/
-├── app.py                          # Streamlit frontend
-├── requirements.txt
-├── .env                            # API keys & config
-├── data/
-│   ├── raw/                        # Put your PDF laws here
-│   ├── processed/
-│   └── vector_store/               # FAISS index (auto-created)
-└── src/
-    ├── ingestion/
-    │   ├── document_loader.py      # PDF/TXT ingestion + chunking
-    │   └── vector_store.py         # FAISS build/load/update
-    └── rag/
-        └── rag_chain.py            # RAG chain + citation + memory
-```
-
----
-
-## 💡 How to Use
-
-1. **Upload legal documents** via sidebar (PDF/TXT)
-2. Click **Process & Index Documents**
-3. Select your **mode** (Citizen / Lawyer / Student)
-4. **Ask questions** in English or Urdu
-
----
-
-## 📚 Recommended Documents to Add
-
-Download and upload these:
-- Constitution of Pakistan (PDF)
-- Pakistan Penal Code (PPC)
-- Code of Criminal Procedure (CrPC)
-- PECA Act
-- Family Laws Ordinance
-
----
-
-## 🏗️ Architecture
-
-```
-User Query
-    ↓
-Streamlit UI
-    ↓
-RAG Chain (LangChain)
-    ↓
-FAISS Vector Search → Retrieve Top-5 Relevant Law Chunks
-    ↓
-Groq LLM (Llama 3.3-70B) → Generate Cited Answer
-    ↓
-Display Answer + Sources
-```
-
----
-
-## 🔮 Coming in Phase 2
-- OCR for scanned documents
-- Legal document analyzer
-- Legal drafting system
-- Multilingual (Urdu) support
-- Judgment search engine
+## Tech Stack
+LangChain · Groq LLaMA 3.3-70B · FAISS · HuggingFace Embeddings · Streamlit · SQLite

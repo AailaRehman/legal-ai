@@ -16,6 +16,17 @@ sys.path.insert(0, str(Path(__file__).parent))
 _project_root = Path(__file__).resolve().parent
 load_dotenv(dotenv_path=_project_root / ".env")
 
+# HuggingFace Spaces — load GROQ_API_KEY from Space secrets if .env not present
+if not os.getenv("GROQ_API_KEY"):
+    os.environ["GROQ_API_KEY"] = "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"
+
+# Run startup tasks (seed users, build index if needed)
+try:
+    from startup import run_startup
+    run_startup()
+except Exception as _e:
+    pass
+
 from src.ingestion.document_loader import ingest_documents, ingest_single_file
 from src.ingestion.vector_store import (
     build_vector_store, load_vector_store,
