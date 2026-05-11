@@ -201,7 +201,7 @@ if "generated_doc" in st.session_state:
     st.markdown("""
     <div style="background:#0D1017;border:1px solid #1E2530;border-left:3px solid #C9A84C44;
     border-radius:8px;padding:0.8rem 1.1rem;font-size:0.75rem;color:#3D4A5C;margin-top:1rem;line-height:1.6">
-        <strong style="color:#C9A84C88">Important</strong> &nbsp;·&nbsp;
+        <strong style="color:#C9A84C88">Disclaimer</strong> &nbsp;·&nbsp;
         This is an AI-generated draft for reference only. Have it reviewed and signed by a qualified
         Pakistani lawyer before submission. Some documents may require stamp paper, registration,
         or notarization under Pakistani law.
