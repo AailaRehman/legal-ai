@@ -17,7 +17,8 @@
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.3.0",
     "framer-motion": "^11.3.0",
-    "@tailwindcss/typography": "^0.5.13"
+    "@tailwindcss/typography": "^0.5.13",
+    "autoprefixer": "^10.4.19"
   },
   "devDependencies": {
     "typescript": "^5",
