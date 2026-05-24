@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.env
+*.db
+vector_store/
+legal_docs/
+.venv/
+venv/
