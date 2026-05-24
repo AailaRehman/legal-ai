@@ -1,6 +1,7 @@
 'use client'
 
 import { Scale, Plus, Trash2, MessageSquare } from 'lucide-react'
+import { BackendStatus } from '@/components/ui/BackendStatus'
 import type { UserMode } from '@/lib/api'
 import { cn } from '@/lib/utils'
 
@@ -112,6 +113,10 @@ export function ChatSidebar({ mode, setMode, onNew, onClear, msgCount }: Props) 
       </div>
 
       {/* Footer actions */}
+      <div className="px-3 pb-2">
+        <BackendStatus />
+      </div>
+
       {msgCount > 0 && (
         <div className="p-3 border-t" style={{ borderColor: 'var(--border-default)' }}>
           <button
