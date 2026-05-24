@@ -13,7 +13,10 @@ const NAV_LINKS = [
   { href: '/chat',     label: 'Legal Chat' },
   { href: '/research', label: 'Research'   },
   { href: '/analyze',  label: 'Analyze'    },
-  { href: '/draft',    label: 'Draft'      },
+  { href: '/draft',      label: 'Draft'      },
+  { href: '/strategy',  label: 'Strategy'   },
+  { href: '/education', label: 'Education'  },
+  { href: '/multilingual', label: 'Urdu Chat' },
 ]
 
 export function Navbar() {
