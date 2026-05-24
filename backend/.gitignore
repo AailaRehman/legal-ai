@@ -3,6 +3,5 @@ __pycache__/
 .env
 *.db
 vector_store/
-legal_docs/
 .venv/
 venv/
