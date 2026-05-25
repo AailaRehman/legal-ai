@@ -30,8 +30,8 @@ function ChatPageInner() {
 
   // Handle ?q= from landing page search
   useEffect(() => {
-    const q = searchParams.get('q')
-    const m = searchParams.get('mode') as 'citizen' | 'lawyer' | 'student' | null
+    const q = searchParams?.get('q')
+    const m = searchParams?.get('mode') as 'citizen' | 'lawyer' | 'student' | null
     if (m) setMode(m)
     if (q) sendMessage(q)
     // eslint-disable-next-line react-hooks/exhaustive-deps
