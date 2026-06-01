@@ -46,7 +46,7 @@ export function useChat() {
         (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000') + '/chat',
         {
           method:  'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'application/json', ...(typeof window !== 'undefined' && localStorage.getItem('mizan_token') ? { Authorization: `Bearer ${localStorage.getItem('mizan_token')}` } : {}) },
           body:    JSON.stringify({
             query:      content,
             mode,
