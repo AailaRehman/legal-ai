@@ -13,6 +13,7 @@ from src.routers.multilingual    import router as multilingual_router
 from src.routers.user            import router as user_router
 from src.routers.admin           import router as admin_router
 from src.routers.kb              import router as kb_router
+from src.routers.research        import router as research_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -45,6 +46,7 @@ app.include_router(multilingual_router,                      tags=["multilingual
 app.include_router(user_router,         prefix="/user",      tags=["user"])
 app.include_router(admin_router,        prefix="/admin",     tags=["admin"])
 app.include_router(kb_router,                                tags=["kb"])
+app.include_router(research_router,                          tags=["research"])
 
 @app.get("/health")
 async def health():
